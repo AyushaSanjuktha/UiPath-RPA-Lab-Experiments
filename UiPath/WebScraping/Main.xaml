@@ -1,0 +1,175 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="786,1033.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd2:DataTable" Name="dtScrapedData" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome List of Countries of the world in alph" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486.4,1010.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="031cb35d-9e18-498d-b03d-5e2b3e70283a" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,816" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractDataGeneric x:TypeArguments="sd2:DataTable" ContinueOnError="True" DisplayName="Extract Table Data 'TABLE'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='#' ReferenceIdx='0' Name='#'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Country' ReferenceIdx='1' Name='Country'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Population 2026' ReferenceIdx='2' Name='Population 2026'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Population 2026 Url' ReferenceIdx='3' Name='Population 2026 Url'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Land Area (Km²)' ReferenceIdx='4' Name='Land Area (Km²)'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Density (P/Km²)' ReferenceIdx='5' Name='Density (P/Km²)'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='#' attr='fulltext' /&gt;&lt;column name='Country' attr='fulltext' /&gt;&lt;column name='Population 2026' attr='fulltext' name2='Population 2026 Url' attr2='href' /&gt;&lt;column name='Land Area (Km²)' attr='fulltext' /&gt;&lt;column name='Density (P/Km²)' attr='fulltext' /&gt;&lt;/extract-table&gt;" ExtractedData="[dtScrapedData]" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,142.4" sap2010:WorkflowViewState.IdRef="NExtractDataGeneric`1_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="031cb35d-9e18-498d-b03d-5e2b3e70283a" Version="V5">
+              <uix:NExtractDataGeneric.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.worldometers.info/geography/alphabetical-list-of-countries/?utm_source=chatgpt.com" ContentHash="E1zBgVhvS0yuRKoQCSXKvw" DesignTimeRectangle="261, -2865, 918, 9044" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="42ca46fc-e0cf-4a80-8d57-c7d12690b237" InformativeScreenshot="b681e33b34cbfe4790e518439060421b.jpg" Reference="lhkJI7fNr0aj67J4i-uA-g/Mk8UxT0JOEq2kKOlX6RaFA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='List of Countries of the world in alphabetical order (A to Z) - Worldometer' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NExtractDataGeneric.Target>
+            </uix:NExtractDataGeneric>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="451.2,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[dtScrapedData.Rows.Count.ToString]" />
+            <ueab:ExcelApplicationCard DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="451.2,491.2" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="C:\Users\91778\OneDrive\ScrapedCountries.xlsx">
+              <ueab:ExcelApplicationCard.Body>
+                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,272" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ueab:WriteRangeX Destination="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;A1&quot;)]" DisplayName="Write DataTable to Excel" sap:VirtualizedContainerService.HintSize="416,212" sap2010:WorkflowViewState.IdRef="WriteRangeX_2" IgnoreEmptySource="False" Source="[dtScrapedData]" />
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelApplicationCard.Body>
+            </ueab:ExcelApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="LeIbNscnPkeOwHpuQLoNxg" IconBase64="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" InformativeScreenshot="b55f2fd5742c15937d5b7258d900f0f0.jpg" Reference="lhkJI7fNr0aj67J4i-uA-g/f6-xx_CGKUyz0kk0ppGZxg" Selector="&lt;html app='chrome.exe' title='List of Countries of the world in alphabetical order (A to Z) - Worldometer' /&gt;" Url="https://www.worldometers.info/geography/alphabetical-list-of-countries/?utm_source=chatgpt.com" Version="V3">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
