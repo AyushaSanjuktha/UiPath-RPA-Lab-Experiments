@@ -1,0 +1,6 @@
+STUDENT CERTIFICATE
+--------------------
+Name: Hasini
+Course: DBMS
+Score: 95
+Status: Completed

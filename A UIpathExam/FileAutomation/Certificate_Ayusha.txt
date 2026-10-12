@@ -1,0 +1,6 @@
+STUDENT CERTIFICATE
+--------------------
+Name: Ayusha
+Course: Python
+Score: 90
+Status: Completed

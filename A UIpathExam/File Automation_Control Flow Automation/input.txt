@@ -1,0 +1,5 @@
+Apple
+12345
+Hello World
+9876543210
+Python

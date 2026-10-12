@@ -1,0 +1,5 @@
+ : 
+Euro : 0.892745
+British Pound : 0.755611
+Indian Rupee : 96.761801
+Japanese Yen : 158.415171

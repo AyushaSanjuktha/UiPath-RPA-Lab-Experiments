@@ -1,0 +1,13 @@
+Student Contact Details
+
+Name: Ravi
+Email: ravi@gmail.com
+Phone: 9876543210
+
+Name: Sita
+Email: sita123@yahoo.com
+Phone: 9123456780
+
+Name: Priya
+Email: priya@outlook.com
+Phone: 9988776655

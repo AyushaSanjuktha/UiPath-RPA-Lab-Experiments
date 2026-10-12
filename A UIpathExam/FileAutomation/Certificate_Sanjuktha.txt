@@ -1,0 +1,6 @@
+STUDENT CERTIFICATE
+--------------------
+Name: Sanjuktha
+Course: Java
+Score: 85
+Status: Completed
